@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+.nav-item {
+    font-size: 13px;
+}
+
+.nav-item:hover .nav-link {
+    color: #32BDB9 !important;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url("/assets/hero-img.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    user-select: none;
+}
+
+*::selection {
+    background-color: #141E28;
+    color: white !important;
+}
+
+.navbar {
+    user-select: none;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-link {
+        padding-left: 0px !important;
+    }
+}
+
+.card {
+    border: none;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1, 1.1);
+}
