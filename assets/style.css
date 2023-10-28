@@ -32,18 +32,58 @@ img {
     user-select: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
     .nav-link {
         padding-left: 0px !important;
+    }
+    .resp{
+        padding-top:50px !important;
+    }
+    .responsive{
+        padding-top:100px;
     }
 }
 
 .card {
     border: none;
     background-color: white;
+    transition: all 0.2s ease-out;
 }
 
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.1, 1.1);
+}
+.btn-blue{
+    border:2px solid #32BDB9;
+    color:#32BDB9;
+}
+.btn-blue:hover{
+    background-color:#32BDB9;
+    color:white;
+}
+.hr{
+    background-color:#32BDB9;
+    width:130px;
+    height:2px;
+}
+.transform{
+    transition: all 0.2s ease-out;
+}
+.transform:hover{
+    transform: translateY(-10px);
+}
+footer a{
+    color:#7f939b;
+    font-size:14px;
+}
+footer a:hover{
+    color:#F0F1D2;
+    text-decoration: none;
+}
+footer li{
+    padding-bottom:10px;
+}
+footer h5{
+    font-size:16px;
 }
