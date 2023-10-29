@@ -14,7 +14,7 @@
 
 #hero {
     height: 100vh;
-    background-image: url("hero-img.jpg");
+    background-image: url("/hero-img.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
